@@ -1,0 +1,22 @@
+div{
+    background-color: gray;
+    /* Comentar Ctrl + K, Ctrl + C. Para descomentar Ctrl + K, Ctrl + U*/
+    display: flex;
+    height: 200px;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+}
+
+p{
+    background-color: red;
+    font-size: 1.5rem;
+    padding: 50px;
+}

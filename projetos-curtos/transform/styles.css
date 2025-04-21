@@ -1,0 +1,31 @@
+body{
+    /* Comentar Ctrl + K, Ctrl + C. Para descomentar Ctrl + K, Ctrl + U*/
+    background-color: white;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box{
+    outline: 3px solid green;
+}
+
+img{
+    /* transform: translateX(100px); */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translateY(100px); */
+    /* margin-left: 100px; */
+    /* transform: translate(-100px, 120px); */
+    /* transform: translate(-20%, 50%); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2); */
+    /* transform: scale(0.5); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(0.5turn); */
+    /* transform: skewX(30deg); */
+    /* transform: skewY(-20deg); */
+    /* transform: skew(25deg); */
+    /* transform: translate(50px, 70px) scale(1.6) rotate(-25deg) */
+}

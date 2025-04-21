@@ -1,0 +1,31 @@
+body{
+    /* Comentar Ctrl + K, Ctrl + C. Para descomentar Ctrl + K, Ctrl + U*/
+    background-color: gray;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box{
+    /* transition: [property] [duration] [time-function] [delay] */
+    /* transition: [propriedade] [duração] [tipo de transição] [delay]*/
+    /* animation: [nome da animação] [duração] [tipo de transição] [repetição da animação]*/
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* transition-property: background-color; */
+    /* transition-property: background-color, border-radius; */
+    /* transition-duration: 2.5s; */
+    /* transition-duration: 2.5s, 2s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: linear; */
+    transition: background-color, border-radius 2.5s, 2s ease-in 1s;
+}
+
+.box:hover{
+    background-color: blue;
+    border-radius: 50%;
+}

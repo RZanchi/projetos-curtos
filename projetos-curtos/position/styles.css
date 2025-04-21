@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pai{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(195, 195, 138);
+    position: relative;
+}
+
+.box-filho-1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+   
+}
+.box-filho-2{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    position: absolute;
+    z-index: 2;
+}
+.box-filho-3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}

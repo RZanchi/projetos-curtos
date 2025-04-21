@@ -1,0 +1,59 @@
+body{
+    /* Comentar Ctrl + K, Ctrl + C. Para descomentar Ctrl + K, Ctrl + U*/
+    background-color: gray;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.box{
+    /* transition: [property] [duration] [time-function] [delay] */
+    /* transition: [propriedade] [duração] [tipo de transição] [delay]*/
+    /* animation: [nome da animação] [duração] [tipo de transição] [repetição da animação]*/
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    animation: teste 6s linear 2;
+    animation-fill-mode: forwards;
+    /* animation-name: animation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards; */
+}
+
+@keyframes teste {
+    0%{
+        transform: scale(2.5);
+    }
+    25%{
+        transform: sclale(1.5);
+        transform: rotate(45deg);
+    }
+    35%{
+        transform: translateX(-150px);
+    }
+    50%{
+        transform: rotate(-45deg);
+        background-color: blue;
+        color: white;
+    }
+    75%{
+        transform: rotate(-90deg);
+        background-color: gold;
+        color: brown;
+    }
+    85%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: sclale(1);
+        transform: rotate(0);
+        background-color: green;
+        color: beige;
+    }
+}
+

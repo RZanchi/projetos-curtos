@@ -1,0 +1,11 @@
+div{
+    background-color: gray;
+    /* Comentar Ctrl + K, Ctrl + C. Para descomentar Ctrl + K, Ctrl + U*/
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    background-color: red;
+    font-size: 2.5rem;
+}
